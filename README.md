@@ -1,0 +1,1 @@
+The current project is going to be setting up the google homepage, recreating/mimicking it. The skills I have demonstrated and used to far are creating a new repo and cloning it into your terminal, then creating a document to be able to place all the project work into it and then lastly creating a file inside of the document. 
