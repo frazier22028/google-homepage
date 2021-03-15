@@ -1,4 +1,21 @@
+html,body{
+    height:99vh;
+}
 #header{
     display: flex;
+    flex-direction:row;
     justify-content: space-between;
+}
+
+main{
+    display:flex;
+    flex-direction:column;
+    justify-content: center; 
+    align-items: center;
+}
+footer{
+    display:flex;
+    flex-direction:column;
+    justify-content: center; 
+    align-items: center;
 }
