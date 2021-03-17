@@ -20,6 +20,9 @@ main{
     justify-content: center; 
     align-items: center;
 }
+header{
+    
+}
 footer{
     display:flex;
     flex-direction:row;
@@ -41,23 +44,53 @@ footer{
     padding-right: 1.1em;
     border-radius: .4em;
     background-color: #2376E5;
+    border:none;
 }
-#google-lucky{
-    padding-top: 1em;
-    color: Grey;
+#google{
+    color: #3C4043;
+    font-size: 13px;
+    padding-top: .9em;
+    padding-bottom: .8em;
+    padding-left: 1.3em;
+    padding-right: 1.3em;
+    border-radius: .4em;
+    background-color: #F8F9FA;
+    border:none;
 
 }
+#lucky{
+    color: #3C4043;
+    font-size: 13px;
+    padding-top: .9em;
+    padding-bottom: .8em;
+    padding-left: 1.3em;
+    padding-right: 1.3em;
+    border-radius: .4em;
+    background-color: #F8F9FA;
+    border:none;
+}
+#search{
+    width: 50%;
+    border:solid;
+    border-width: .2px;
+    /* padding-top: 1.5em; */
+    padding-left: 1em;
+    padding-right: 1em;
+    border-radius: 1em;
+    /* padding-top: 1em; */
+    /* padding-bottom: 1em; */
+    
+}
 #search-bar{
-    padding-top: 1.5em;
-    padding-left: 14em;
-    padding-right: 14em;
-    border-radius: 4em;
-    padding-top: 1em;
-    padding-bottom: 1em;
+    width:90%;
+    border:none;
 }
 #magnify{
+    width:10%
     padding-top: 2em;
     color: #9AA0A6;
 }
-
+nav>div>div>a,nav>div>a{
+    color: black;
+}
    
