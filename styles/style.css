@@ -1,7 +1,14 @@
 html,body{
     height:99vh;
 }
-#header{
+body{
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between; 
+    
+    
+}
+nav{
     display: flex;
     flex-direction:row;
     justify-content: space-between;
@@ -15,7 +22,42 @@ main{
 }
 footer{
     display:flex;
-    flex-direction:column;
-    justify-content: center; 
+    flex-direction:row;
+    justify-content: space-between; 
     align-items: center;
+    background-color: #F2F2F2;
+    height: 8.58em;
+
 }
+#ftlayout{
+    margin: 10px 10px 10px 10px;
+}
+#sign-in{
+    color: white;
+    font-size: 16px;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    padding-left: 1.1em;
+    padding-right: 1.1em;
+    border-radius: .4em;
+    background-color: #2376E5;
+}
+#google-lucky{
+    padding-top: 1em;
+    color: Grey;
+
+}
+#search-bar{
+    padding-top: 1.5em;
+    padding-left: 14em;
+    padding-right: 14em;
+    border-radius: 4em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+#magnify{
+    padding-top: 2em;
+    color: #9AA0A6;
+}
+
+   
